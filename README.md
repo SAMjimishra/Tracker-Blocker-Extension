@@ -62,7 +62,7 @@ Shows real-time blocked trackers count per tab on the extension icon for immedia
 1️⃣ Clone or download the project:
 
 ```bash 
-git clone https://github.com/your-username/tracker-blocker-extension.git
+git clone https://github.com/SAMjimishra/Tracker-Blocker-Extension.git
 ```
 
 2️⃣ Open Chrome and navigate to:

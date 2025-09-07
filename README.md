@@ -37,12 +37,9 @@ Shows real-time blocked trackers count per tab on the extension icon for immedia
  
 1️⃣ Tracker Blocker Popup
 
-(Shows current status and settings shortcuts)
-
-
-2️⃣ Tracker Blocker Settings Page
-
-(Add custom trackers, manage whitelist, toggle options)
+(Shows current status and settings shortcuts)  ![image alt](https://github.com/SAMjimishra/Tracker-Blocker-Extension/blob/49ab5a6c7655bb4776f7af87d3ed4e3164da7a27/tracker-blocker-extension/SS/Screenshot%202025-09-07%20232637.png)                                                                           2️⃣ Tracker Blocker Settings Page
+![image alt](https://github.com/SAMjimishra/Tracker-Blocker-Extension/blob/49ab5a6c7655bb4776f7af87d3ed4e3164da7a27/tracker-blocker-extension/SS/Screenshot%202025-09-07%20232413.png)
+                                                                                                                         (Add custom trackers, manage whitelist, toggle options)
 
 
 3️⃣ Real-time Stats Section

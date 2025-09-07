@@ -1,6 +1,6 @@
 
 
-<h1>🛡️ Tracker Blocker Extension </h1>
+<h1> <center>🛡️ Tracker Blocker Extension</center> </h1>
 
 <h4>📋 Project Overview</h4>
 
@@ -35,17 +35,15 @@ Track exactly what was blocked, when, from which tab, including the blocked URL,
 Shows real-time blocked trackers count per tab on the extension icon for immediate insight.
 ## 📸Screenshots Preview
  
-1️⃣ Tracker Blocker Popup
+1️⃣ Tracker Blocker Popup:-
 
-(Shows current status and settings shortcuts)  ![image alt](https://github.com/SAMjimishra/Tracker-Blocker-Extension/blob/49ab5a6c7655bb4776f7af87d3ed4e3164da7a27/tracker-blocker-extension/SS/Screenshot%202025-09-07%20232637.png)                                                                         
-2️⃣ Tracker Blocker Settings Page
+(Shows current status and settings shortcuts)  
+![image alt](https://github.com/SAMjimishra/Tracker-Blocker-Extension/blob/49ab5a6c7655bb4776f7af87d3ed4e3164da7a27/tracker-blocker-extension/SS/Screenshot%202025-09-07%20232637.png)                                                                         
+2️⃣ Tracker Blocker Settings Page:-
 
    (Add custom trackers, manage whitelist, toggle options)
 ![image alt](https://github.com/SAMjimishra/Tracker-Blocker-Extension/blob/49ab5a6c7655bb4776f7af87d3ed4e3164da7a27/tracker-blocker-extension/SS/Screenshot%202025-09-07%20232413.png)
-                                                                                                                     
-
-
-3️⃣ Real-time Stats Section
+3️⃣ Real-time Stats Section:-
     
 (View block logs, per-tab stats, blocked count)
  ![image alt](https://github.com/SAMjimishra/Tracker-Blocker-Extension/blob/4c5f5cde241b70ba5fc483a4aface18fb29276eb/tracker-blocker-extension/SS/Screenshot%202025-09-07%20232314.png)

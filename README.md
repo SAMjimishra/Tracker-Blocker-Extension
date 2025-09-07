@@ -33,6 +33,30 @@ Track exactly what was blocked, when, from which tab, including the blocked URL,
 
 ✔️ Badge Icon Counter
 Shows real-time blocked trackers count per tab on the extension icon for immediate insight.
+## 📸Screenshots Preview
+ 
+1️⃣ Tracker Blocker Popup
+
+(Shows current status and settings shortcuts)
+
+
+2️⃣ Tracker Blocker Settings Page
+
+(Add custom trackers, manage whitelist, toggle options)
+
+
+3️⃣ Real-time Stats Section
+
+(View block logs, per-tab stats, blocked count)
+
+## 🎯 Example Use Cases
+✅ Prevent third-party tracking scripts from sending user behavior data.
+
+✅ Block annoying ad domains while browsing.
+
+✅ Keep sensitive sites clean by whitelisting only your trusted domains.
+
+✅ Automatically stay up to date without manual rule management.
 ## Run Locall
 🚀 How to Install & Use
 
@@ -58,30 +82,6 @@ chrome://extensions/
   • Enable remote auto-update and specify a remote list URL (optional)
 
 7️⃣ View Stats for live blocked count and logs. 🎯
-## 🎯 Example Use Cases
-✅ Prevent third-party tracking scripts from sending user behavior data.
-
-✅ Block annoying ad domains while browsing.
-
-✅ Keep sensitive sites clean by whitelisting only your trusted domains.
-
-✅ Automatically stay up to date without manual rule management.
-## 📸Screenshots Preview
- 
-1️⃣ Tracker Blocker Popup
-
-(Shows current status and settings shortcuts)
-
-
-2️⃣ Tracker Blocker Settings Page
-
-(Add custom trackers, manage whitelist, toggle options)
-
-
-3️⃣ Real-time Stats Section
-
-(View block logs, per-tab stats, blocked count)
-
 ## ⚙️ Tech Stack
 
 ◉Javascript (Vanilla)

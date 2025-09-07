@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tracker Blocker Pro - Settings</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(145deg, #141e30, #243b55);
+            color: #fff;
+            padding: 20px;
+        }
+        
+        h1 {
+            font-size: 22px;
+            text-align: center;
+            color: #00f5d4;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+        
+        .card {
+            background: rgba(255, 255, 255, 0.06);
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 20px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+        }
+        
+        .card h2 {
+            font-size: 18px;
+            margin-bottom: 12px;
+            border-left: 4px solid #00bbf9;
+            padding-left: 8px;
+            color: #00f5d4;
+        }
+        
+        .input-row {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+        
+        input[type="text"] {
+            flex: 1;
+            padding: 8px;
+            border-radius: 8px;
+            border: none;
+            outline: none;
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            font-size: 14px;
+        }
+        
+        button {
+            background: linear-gradient(135deg, #00f5d4, #00bbf9);
+            color: #000;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 13px;
+            transition: all 0.2s;
+        }
+        
+        button:hover {
+            transform: scale(1.05);
+            background: linear-gradient(135deg, #00bbf9, #00f5d4);
+        }
+        
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            max-height: 150px;
+            overflow-y: auto;
+        }
+        
+        li {
+            background: rgba(255, 255, 255, 0.08);
+            padding: 8px;
+            margin-bottom: 6px;
+            border-radius: 6px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 13px;
+        }
+        
+        li button {
+            background: #ff6b6b;
+            color: #fff;
+            padding: 4px 8px;
+            border-radius: 6px;
+            font-size: 12px;
+        }
+        
+        .stats-box {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 10px;
+            padding: 12px;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        
+        .export-import {
+            margin-top: 12px;
+            text-align: center;
+        }
+        
+        .export-import button {
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>⚙️ Tracker Blocker Settings</h1>
+
+    <div class="card">
+        <h2>🛑 Custom Tracker List</h2>
+        <div class="input-row">
+            <input type="text" id="trackerInput" placeholder="e.g. *://*.example.com/*">
+            <button id="addTracker">Add</button>
+        </div>
+        <ul id="trackerList"></ul>
+    </div>
+
+    <div class="card">
+        <h2>✅ Whitelisted Sites</h2>
+        <div class="input-row">
+            <input type="text" id="whitelistInput" placeholder="e.g. example.com">
+            <button id="addWhitelist">Add</button>
+        </div>
+        <ul id="whitelist"></ul>
+    </div>
+
+    <div class="card">
+        <h2>📊 Stats</h2>
+        <div class="stats-box">
+            Total Blocked Trackers: <strong id="totalBlocked">0</strong>
+        </div>
+    </div>
+
+    <div class="card export-import">
+        <h2>📤 Export / 📥 Import</h2>
+        <button id="exportData">Export Data</button>
+        <button id="importData">Import Data</button>
+        <input type="file" id="importFile" style="display:none;">
+    </div>
+
+    <script src="options.js"></script>
+</body>
+
+</html>

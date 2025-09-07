@@ -46,7 +46,7 @@ Shows real-time blocked trackers count per tab on the extension icon for immedia
 
 
 3️⃣ Real-time Stats Section
-
+     ![image alt](https://github.com/SAMjimishra/Tracker-Blocker-Extension/blob/4c5f5cde241b70ba5fc483a4aface18fb29276eb/tracker-blocker-extension/SS/Screenshot%202025-09-07%20232314.png)
 (View block logs, per-tab stats, blocked count)
 
 ## 🎯 Example Use Cases
